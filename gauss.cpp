@@ -207,7 +207,6 @@ int main()
 
 	if (colSize == rowSize-zeroRows)
 	{
-		//Oneify if triangular, kind of useless if not
 		for (int i=0; i<rowSize; i++)
 		{
 			for (int j=0; j<colSize && matrix[i][j-1]==0; j++)
